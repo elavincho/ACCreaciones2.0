@@ -1,0 +1,673 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    /* Esto hace que todas las cajas sean iguales */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* Header */
+.header h1 {
+    font-size: 2rem;
+}
+
+.header {
+    padding: 0.5rem;
+    /* background-color: rgb(10, 187, 181); */
+    background-color: rgb(58, 203, 198);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fin Header */
+main {
+    padding: 1rem;
+}
+
+img {
+    padding: 1rem;
+    max-width: 99%;
+}
+
+h1 {
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Dancing Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.menu-circulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2%;
+}
+
+.img-menu-circulo {
+    border: solid 1px;
+    color: rgb(10, 219, 217);
+    padding: 3px;
+    border-radius: 100%;
+    max-width: 75px;
+    margin: 2px;
+}
+
+.menu-circulo a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-circulo h4 {
+    text-align: center;
+}
+
+.cont-flecha {
+    display: flex;
+    justify-content: right;
+}
+
+.flecha-arriba {
+    max-width: 50px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.vistos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.img-producto {
+    border: none;
+    border-radius: 0px;
+}
+
+.cont-btn-2col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* .entrada-blog a.comprar { */
+.comprar {
+    background-color: rgb(58, 203, 198);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Footer */
+@media (min-width: 480px) {
+    .footer-pc {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        background-color: rgb(58, 203, 198);
+        line-height: 0.5;
+        font-size: 1rem;
+    }
+
+    .footer-direccion {
+        min-width: 360px;
+    }
+
+    .footer-direccion p {
+        text-align: center;
+    }
+
+    .footer-celular {
+        display: none;
+    }
+}
+
+/* Fin Footer */
+
+.entrada-blog {
+    border: solid 1px;
+    color: rgb(180, 180, 180);
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+}
+
+.entrada-blog a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (max-width: 480px) {
+    .dos-columnas {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+@media (min-width: 480px) {
+    .dos-columnas {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        justify-content: center;
+        max-width: 800px;
+    }
+}
+
+/* Estilos Más Productos */
+.articulos h3 {
+    margin: 5px;
+}
+
+.mas-productos a {
+    text-decoration: none;
+    color: black;
+}
+
+.mas-productos h4 {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .mas-productos {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0.5rem;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .img-mas-productos {
+        border: solid 1px;
+        color: rgb(180, 180, 180);
+        padding: 4px;
+        margin: 2px;
+        border-radius: 10px;
+        max-width: 100px;
+    }
+}
+
+@media (min-width: 480px) {
+    .mas-productos {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 1rem;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 5%;
+    }
+
+    .img-mas-productos {
+        border: solid 1px;
+        color: rgb(180, 180, 180);
+        padding: 4px;
+        margin: 2px;
+        border-radius: 10px;
+        max-width: 80%;
+    }
+}
+
+/* Fin Estilos Más Productos */
+
+/* Estilos de Todos los Productos */
+.cont-img-principal {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.img-prod-principal {
+    justify-content: center;
+}
+
+.img-prod-principal img {
+    min-width: 250px;
+    border: solid 1px;
+    color: rgb(180, 180, 180);
+    border-radius: 10px;
+    padding: 3%;
+    /* transition: all 300ms; */
+}
+
+.img-prod-principal h2 {
+    margin: 5%;
+}
+
+.img-seleccion {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    min-width: 50%;
+    justify-content: center;
+    text-align: justify;
+    padding: 5%;
+}
+
+.img-seleccion img {
+    border: none;
+    border-radius: 25%;
+    border: solid 1px;
+    color: rgb(180, 180, 180);
+    padding: 3px;
+    margin: 3px;
+}
+
+/* Pantallas de Celular */
+@media (max-width: 480px) {
+    .cont-img-seleccion {
+        max-height: 265px;
+        max-width: 120px;
+        justify-content: center;
+    }
+}
+
+/* Pantallas de Tables y Netbooks */
+@media (min-width: 480px) {
+    .cont-img-seleccion {
+        max-height: 500px;
+        justify-content: center;
+    }
+}
+
+/* Pantallas de Tables y Netbooks */
+@media (min-width: 800px) {
+    .cont-img-seleccion {
+        max-height: 700px;
+        justify-content: center;
+    }
+}
+
+/* Fin Estilos de Todos los Productos */
+
+/* Presentacion */
+
+@media (max-width: 480px) {
+    .dos-col-presentacion {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 1rem;
+        border: solid 1px;
+        color: rgb(180, 180, 180);
+        border-radius: 10px;
+        padding: 3%;
+    }
+
+    .img-quien-soy {
+        max-width: 100px;
+        max-height: 100px;
+        color: rgb(180, 180, 180);
+        border: solid 1px;
+        padding: 3px;
+        margin: 10px;
+        float: left;
+    }
+
+    .presentacion p {
+        font-family: 'Dancing Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1;
+        text-indent: 20px;
+        max-width: 300px;
+        color: black;
+    }
+}
+
+@media (min-width: 480px) {
+    .dos-col-presentacion {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 3rem;
+        justify-content: center;
+        max-width: 800px;
+        border: solid 1px;
+        color: rgb(180, 180, 180);
+        border-radius: 10px;
+        padding: 3%;
+    }
+
+    .img-quien-soy {
+        max-height: 350px;
+        border: solid 1px;
+        border-radius: 10px;
+        padding: 3px;
+        float: left;
+        margin: 20px;
+        padding: 10px;
+
+    }
+
+    .presentacion p {
+        font-family: 'Dancing Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2rem;
+        text-indent: 30px;
+        color: black;
+    }
+}
+
+/* Fin  Presentacion */
+
+/* 5 Motivos para elegir un Regalo Personalizado */
+
+.cont-personalizado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 1px;
+    color: rgb(180, 180, 180);
+}
+
+/* Fin 5 Motivos */
+
+/* Enlace Estirado */
+.enlace-estirado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont-enl-estirado {
+    display: flex;
+    border-radius: 10px;
+    border: solid 1px;
+    color: rgb(180, 180, 180);
+    padding: 1rem;
+    margin: 3px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.cont-enl-estirado h2,
+h4 {
+    color: black;
+}
+
+.img-enl-estirado {
+    max-width: 150px;
+}
+
+.enlace-estirado h2,
+h4 {
+    text-align: left;
+    text-align: justify;
+}
+
+.ver-mas {
+    background-color: rgb(106, 219, 217);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+    .img-enl-estirado {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+/* Fin Enlace Estirado */
+
+
+/* Productos en 3 columnas */
+
+.img-3-col {
+    max-width: 75px;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .prod-3-col {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(3, 0.5fr);
+        column-gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .prod-3-col a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .tarjeta-3-col {
+        border: solid 1px;
+        color: rgb(180, 180, 180);
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .img-3-col {
+        max-width: 100px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 480px) {
+    .prod-3-col {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+        justify-content: center;
+        max-width: 800px;
+    }
+
+    .prod-3-col a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .tarjeta-3-col {
+        border: solid 1px;
+        color: rgb(180, 180, 180);
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .img-3-col {
+        max-width: 150px;
+        justify-content: center;
+    }
+}
+
+/* Fin Productos en 3 columnas */
+
+/* Filtro Buscador */
+
+.filtro {
+    display: none;
+}
+
+/* Fin filtro buscador */
+
+/* Ubicación */
+
+.ubicacion {
+    border: solid 1px;
+    color: rgb(180, 180, 180);
+    margin: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Fin Ubicación */
+
+/* Menu Fijo*/
+
+@media (max-width: 480px) {
+
+    .footer-celular {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(58, 203, 198);
+        color: white;
+    }
+
+    /* Menu Fijo Inicio*/
+    .inicio {
+        position: fixed;
+        bottom: 10px;
+        right: 82%;
+    }
+
+    /* Fin Menu Fijo Inicio*/
+
+    /* Menu Fijo Todos los productos*/
+    .all-products {
+        position: fixed;
+        bottom: 10px;
+        right: 63%;
+    }
+
+    /* Fin  Menu Fijo todos los productos*/
+
+    /* Menu Fijo Quien Soy*/
+    .about {
+        position: fixed;
+        bottom: 10px;
+        right: 43%;
+    }
+
+    /* Fin  Menu Fijo Quien Soy*/
+
+    /* Menu Fijo Mapa*/
+    .mapa {
+        position: fixed;
+        bottom: 10px;
+        right: 23%;
+    }
+
+    /* Fin  Menu Fijo Mapa*/
+    #btn-mas {
+        display: none;
+    }
+
+    /* Redes Sociales*/
+    .container-redes {
+        position: fixed;
+        bottom: 10px;
+        right: 5%;
+    }
+
+    .redes a,
+    .icon-mas2,
+    .inicio,
+    .all-products,
+    .about,
+    .mapa {
+        display: block;
+        text-decoration: none;
+        /* background-color: rgb(58, 203, 198); */
+        background-color: rgb(0, 0, 0);
+        color: white;
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        box-shadow: 1px 0px 0px 1px rgba(255, 255, 255, 250);
+        transition: all 500ms ease;
+    }
+
+    .redes a {
+        margin-bottom: -15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /* ~ este signo con Alt +126 */
+    #btn-mas:checked~.redes a {
+        margin-bottom: 10px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .icon-mas2 {
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+    #btn-mas:checked~.btn-mas .icon-mas2 {
+        transform: rotate(137deg);
+        font-size: 30px;
+    }
+
+    .footer-pc * {
+        display: none;
+    }
+
+}
+
+/* Fin Menu Fijo Redes Sociales*/
+
+/* Buscador */
+
+.buscador {
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+}
+
+/* Fin Buscador */
