@@ -19,3 +19,12 @@ document.addEventListener("keyup", (e) => {
 });
 
 /* Fin Buscador de productos*/
+
+
+window.addEventListener("scroll", function(){
+  var header = this.document.querySelector("header");
+  header.classList.toggle("abajo", this.window.scrollY>0);
+})
+
+
+

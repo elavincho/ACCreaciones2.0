@@ -369,8 +369,8 @@ p {
 
     .presentacion p {
         font-family: 'Dancing Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1;
+        font-size: 1.8rem;
+        /* line-height: 1; */
         text-indent: 20px;
         max-width: 300px;
         color: black;
@@ -420,6 +420,8 @@ p {
     justify-content: center;
     border: solid 1px;
     color: rgb(180, 180, 180);
+    max-width: 481px;
+    align-items: center;
 }
 
 /* Fin 5 Motivos */
@@ -440,6 +442,7 @@ p {
     margin: 3px;
     max-width: 100%;
     min-width: 100%;
+    background-image: url("/assets/iconos/lineas.png");
 }
 
 .cont-enl-estirado h2,
@@ -553,6 +556,10 @@ h4 {
 
 /* Ubicación */
 
+.cont-ubicacion {
+    max-width: 481px;
+}
+
 .ubicacion {
     border: solid 1px;
     color: rgb(180, 180, 180);
@@ -567,6 +574,15 @@ h4 {
 /* Menu Fijo*/
 
 @media (max-width: 480px) {
+
+    /* probando el header */
+    /* .header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    } */
 
     .footer-celular {
         position: fixed;
