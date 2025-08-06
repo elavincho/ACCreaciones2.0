@@ -29,6 +29,12 @@ Este proyecto tiene la finalidad de tener preciencia con una página web y una a
 - Ubicación con google maps
 - Link a redes sociales
 - Contacto via whatsapp
+- Estamos en !Tus mejores momentos¡
+- Productos destacados
+- 5 Razones para elegir un regalo personalizado
+- Más Vendidos
+- Nuestros Clientes
+- Podría interesarte
 
 ## Imagenes del proyecto
 
