@@ -45,4 +45,4 @@ Este proyecto tiene la finalidad de tener preciencia con una página web y una a
 
 ## Video del proyecto
 
-[![Video tutorial](https://github.com/elavincho/SistemaRolesPermisos/blob/master/img/img_video.png)](https://youtu.be/BDLIg_sSFqw)
+[![Video tutorial](https://github.com/elavincho/ACCreaciones2.0/blob/master/assets/img_proyecto/ing_video.png)](https://youtu.be/BDLIg_sSFqw)
