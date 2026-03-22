@@ -1,4 +1,4 @@
-<img src="https://github.com/elavincho/elavincho/blob/main/logo_ac_cuadrado.png" width="80" height="80" alt="img"/> 
+<img src="https://github.com/elavincho/elavincho/blob/main/logo_ac_cuadrado.png" width="80" height="80" alt="logo-ac-creaciones"/> 
 
 # ACCreaciones
 
